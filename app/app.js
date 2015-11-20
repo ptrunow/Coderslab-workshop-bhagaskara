@@ -7,7 +7,7 @@
 } else if (day = 19) {
 	console.log(day + 'jest dzisiaj')
 }*/
-/*~~~~~~~~~~~ZADANIE 4~~~~~~~~~~~~*/
+/*~~~~~~~~~~~ZADANIE 4 sposob 1 ~~~~~~~~~~~~*/
 
 /*
 var number1 = 1000;
@@ -35,6 +35,28 @@ if (number3 > number1) {
 }
 */
 
+/*~~~~~~~~~~~~~~~ sposob 2 ~~~~~~~~~~~~*/
+
+/*
+var liczba1 = 55;
+var liczba2 = 70;
+var liczba3 = 28030;
+
+if(liczba1 > liczba2){
+  if(liczba1 > liczba3){
+        console.log("liczba 1 jest najwieksza");
+    } else {
+        console.log("liczba 3 jest nawieksza");
+    }
+  } else if(liczba2 > liczba3) {
+        console.log("liczba 2 jest najwieksza");
+  } else {
+    console.log("liczba 3 jest najwieksza")
+}
+*/
+
+/*~~~~~~~~~~~~~~~ ZADANIE 5 ~~~~~~~~~~~~*/
+
 /*
 var ocena = 150;
 
@@ -60,6 +82,10 @@ else if (ocena >100) {
 	console.log("error");
 }
 */
+
+
+
+
 /*
 var i = 15;
  
@@ -116,18 +142,6 @@ while (x <= y) {
 console.log(suma)
 */
 
-var liczba1 = 459;
-var liczba2 = 45;
-var liczba3 = 2367;
-
-if(liczba1 > liczba2) {
-	else if(liczba2 > liczba3) {
-		else if (liczba2 > liczba3) {
-			else(liczba3 > liczba2)
-				console.log ( +"jestst najwyższą liczbą")
-		};
-	};
-}
 
 
 
