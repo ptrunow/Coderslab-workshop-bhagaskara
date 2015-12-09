@@ -3,7 +3,8 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
  	<meta charset="utf-8">
-	<title>Warsztaty 1</title>
+	<title>Vunurt Portfolio</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="_css/screen.css">
 
 	<script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -11,90 +12,320 @@
 	<script src="/app.js"></script>
 </head>
 
+
 <body>
-  
-<header>
-	<h1>SIT ON HAIR</h1>
-	<nav> 
-		<ul>
-			<li><a href="#">O firmie</a></li>
-			<li><a href="#">Galeria</a></li>
-			<li><a href="#">Kontakt</a></li>
-		</ul>
-	</nav>
+
+<!-- HEADER -->
+<header class="main-header">
+	<section class="container">
+		<img src="_img/logo.png" alt="Logo" class="logo">
+			<h1>Fusce rutrum pretium lorem semper nulla</h1>
+			<p>Vestibulum ornare cursus nisl, fermentum tincidunt libero pretium et. Maecenas interdum ligula non <br> fermentum fringilla.</p>
+		<div class="icon-header">
+			<div class="row">
+				<div class="col-md-2 col-md-offset-4">
+					<a href="#services" class="icon-services">Services</a>
+				</div>
+				<div class="col-md-2">
+					<a href="#portfolio" class="icon-portfolio">Portfolio</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="icon-header-left">
+					<div class="col-md-6">
+						<a href="#about" class="icon-about">About</a>
+						<a href="#team" class="icon-team">Team</a>
+					</div>
+				</div>
+				<div class="icon-header-right">
+					<div class="col-md-6">
+						<a href="#" class="icon-blog">Blog</a>
+						<a href="#contact" class="icon-contact">Contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </header>
 
- <!--- SLIDER -->
-<div class="slider">
-	<img src="../_img/black_chair.png" class="blackchair">
-	<div class="text">
-		<h2>SIT <span>ON</span> OUR <span>CHAIR</span></h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada dui nec rutrum mattis.</p>
-			<a href="#" class="slider-button">ZOBACZ WIĘCEJ</a>
+
+<!-- NAVIGATION -->
+<div id="nav">
+	<img src="_img/logo2.png">
+		<nav class="navigation">
+			<ul>			
+				<li><span><a href="#">home</a></span></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#team">team</a></li>
+				<li><a href="#services">services</a></li>
+				<li><a href="#portfolio">portfolio</a></li>
+				<li><a href="#blog">blog</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</nav>
+</div>
+
+
+<!-- INFO -->
+<div id="info" class="container-fluid">
+	<h2 class="hide">Company Info</h2>
+		<div class="row">
+			<div class="container icon-info">
+				<div class="col-md-3">
+					<span class="par-one"></span>
+					<h3>Build with love</h3>
+					<p>Fusce facilisis velit libero, nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque habitant morbi tristique senectus et.</p>
+				</div>
+				<div class="col-md-3">
+					<span class="par-two"></span>
+					<h3>Build with love</h3>
+					<p>Fusce facilisis velit libero, nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque habitant morbi tristique senectus et.</p>
+				</div>
+				<div class="col-md-3">
+					<span class="par-three"></span>
+					<h3>Build with love</h3>
+					<p>Fusce facilisis velit libero, nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque habitant morbi tristique senectus et.</p>
+				</div>
+				<div class="col-md-3">
+					<span class="par-four"></span>
+					<h3>Build with love</h3>
+					<p>Fusce facilisis velit libero, nec dignissim lacus sagittis non. Sed nec porta ante. Pellentesque habitant morbi tristique senectus et.</p>
+				</div>
+			</div>
+		</div>
+</div>
+
+
+<!-- ABOUT US -->
+<div id="about" class="container-fluid">
+	<h2>About <small>us</small></h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 mac">
+					<img src="_img/mac.png">
+				</div>
+				<div class="col-md-6">
+					<p>Aliquam metus neque, bibendum sit amet porta at, consequat et enim. In ut turpis non ipsum rhoncus porttitor vel ac nunc. Maecenas interdum dignissim lorem quis auctor. Donec sit amet nulla nisl, aliquam pretium ipsum. Pellentesque sodales ipsum et enim rutrum adipiscing. Quisque tincidunt mattis sapien, vel posuere.</p>
+					<a href="#">Learn more</a>
+				</div>
+			</div>
+		</div>
+</div>
+
+<!-- QUOTE ONE -->
+<div id="quote-one">
+	<div class="container-fluid">
+		<span></span>
+		<h2>We lorem and ipsum your aliquam</h2>
+	</div>	
+</div>
+
+<!-- TEAM -->
+<div id="team" class="container">
+	<h2>Our <small>team</small></h2>
+</div>
+
+<!-- SKILLS -->
+<section id="services">
+	<h2>Our <small>skills</small></h2>
+		<div class="container">	
+			<div class="col-md-6">
+				<h3>WEBDESIGN</h3>
+					<progress max="100" value="90"></progress>
+				<h3>GRAPHIC DESIGN</h3>
+					<progress max="100" value="75"></progress>
+			</div>
+			<div class="col-md-6">
+				<h3>HTML/CSS</h3>
+					<progress max="100" value="70"></progress>	
+				<h3>UI/UX</h3>	
+					<progress max="100" value="85"></progress>
+			</div>
+		</div>
+</section>
+
+<!-- QUOTE TWO -->
+<div id="quote-two">
+	<div class="container-fluid">
+		<span></span>
+		<h2>We lorem and ipsum your aliquam</h2>
+	</div>	
+</div>
+
+<!-- COUTNER-->
+<div id="countner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<h2>365</h2>
+				<p>Lorem Ipsum</p>
+			</div>
+			<div class="col-md-3">
+				<h2>98%</h2>
+				<p>Lorem Ipsum</p>				
+			</div>
+			<div class="col-md-3">
+				<h2>69</h2>
+				<p>Lorem Ipsum</p>				
+			</div>
+			<div class="col-md-3">
+				<h2>1,642</h2>
+				<p>Lorem Ipsum</p>				
+			</div>
+		</div>
 	</div>
-</div>		
-
-
-
-<div class="products">
-	<h2 class="hide">Products</h2>
-		<article class="clair product">
-				<h3><span>Chair Clair<span></h3>
-				<img src="../_img/box1_img.jpg" alt="Chair Clair">
-		</article>
-		<article class="margarita product">
-				<h3><span>Chair Margarita<span></h3>
-				<img src="../_img/box2_img.jpg" alt="Chair Margarita">
-		</article>
-		<article class="box product product-desc">
-				<h3><span>Finds all inputs</span></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada dui nec rutrum mattis. Morbi eget massa dapibus, facilisis eros sed, sodales magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus pharetra consequat.
-					<br>
-					<br>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus tortor non urna dignissim, quis rutrum elit viverra.</p>
-		</article>
 </div>
 
 
-<div class="price">
-	<h2>CENNIK</h2>
-		<div class="Basic">
-			<h3>Basic Plan</h3>
-				<p>Zakup towaru + dowóz</p>
-				<p>Serwis</p>
+<!-- REVIEVS -->
+<section id="revievs">
+	<h2>Revievs</h2>
+	<div class="revievs-carousel">
+		<div class="review-item">
+			<img src="../_img/n1.jpg" alt="The Pulpit Rock">
+			<blockquote>
+				<p>Neque Porro Quisquam</p>
+			</blockquote>
+			<cite>LESALE CHRISTOPER, PINTEREST</cite>
 		</div>
-		<div class="Standard">
-			<h3>Standard Plan</h3>
-				<p>Zakup towaru + dowóz</p>
-				<p>Serwis</p>
-				<p>Gwarancja 5 lat </p>
+		<div class="review-item">
+			<img src="../_img/n2.jpg" alt="The Pulpit Rock">
+			<blockquote>
+				<p>Neque Porro Quisquam</p>
+			</blockquote>
+			<cite>LESALE CHRISTOPER, PINTEREST</cite>
 		</div>
-		<div class="Advance">
-			<h3>Advance Plan</h3>
-				<p>Zakup towaru + dowóz</p>
-				<p>Serwis</p>
-				<p>Gwarancja 6 lat </p>
-				<p>Porady projektanta</p>
+				<div class="review-item">
+			<img src="../_img/n3.jpg" alt="The Pulpit Rock">
+			<blockquote>
+				<p>Neque Porro Quisquam</p>
+			</blockquote>
+			<cite>LESALE CHRISTOPER, PINTEREST</cite>
 		</div>
-</div>
-
-
-<div class="contact">
-	<h1>Kontakt</h1>	
-	<img src="../_img/red_chair.png">
-
-</div>
-
-
-<div class="footer">
-	<p>Copyright 2015 | All Right Reserved. - Sit On Chair</p>
-	<div class="social">
-		<img src="../_img/flickr.png" alt="Flickr">
-		<img src="../_img/vimeo.png" alt="Vimeo">
-		<img src="../_img/pinterest.png" alt="Pinterest">
-		<img src="../_img/twitter.png" alt="Twitter">	
+				<div class="review-item">
+			<img src="../_img/n4.jpg" alt="The Pulpit Rock">
+			<blockquote>
+				<p>Neque Porro Quisquam</p>
+			</blockquote>
+			<cite>LESALE CHRISTOPER, PINTEREST</cite>
+		</div>
+		<div class="review-item hide">
+			<img src="../_img/n5.jpg" alt="The Pulpit Rock">
+			<blockquote>
+				<p>Neque Porro Quisquam</p>
+			</blockquote>
+			<cite>LESALE CHRISTOPER, PINTEREST</cite>
+		</div>
 	</div>
-</div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+	<div class="container">
+		<h2>Our portfolio</h2>
+			<div class="gallery">
+				<figure>
+	  				<img src="../_img/t1.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure>
+	  				<img src="../_img/t2.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure>
+	  				<img src="../_img/t3.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure>
+	  				<img src="../_img/t4.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure>
+	  				<img src="../_img/t5.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure>
+	  				<img src="../_img/t6.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t1.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t2.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t1.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t2.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t1.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t2.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t1.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t2.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t1.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+				<figure class='slide'>
+	  				<img src="../_img/t2.jpg" alt="The Pulpit Rock">
+	  				<figcaption>Neque Porro Quisquam</figcaption>
+	  				<figcaption>apps, icons, ui</figcaption>
+				</figure>
+			</div>
+			<button class="gallery-button">Watch more</button>
+		</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+	<div class="container">
+		<h2>Get in touch</h2>
+		<div class="contact-form col-md-6">
+			
+		</div>
+		<div class="col-md-6">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+			</p>
+			<h3>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.</h3>
+			<span>T: (202) 456-1111</span>
+			<span>M: (202) 456-1212</span>
+		</div>
+	</div>
+</section>
 
 
 
@@ -116,5 +347,8 @@
 
 
 
- </body>
- </html>
+
+
+</body>
+
+</html>
