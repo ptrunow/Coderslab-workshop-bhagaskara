@@ -9,12 +9,19 @@ $(document).ready(function(){
     	}, 300);
 	});
 
+	var navBarTop = $('#nav').offset().top;
 
 	$(window).on('scroll', function(){
-		if ($(window).scrollTop() > 1080) {
+		if ($(window).scrollTop() > navBarTop - 10) {
 			$('#nav').addClass('fixed');
 		} else {
 			$('#nav').removeClass('fixed');
+		}
+
+		if ($(window).scrollTop() > navBarTop) {
+			$('#nav').addClass('fixed-change');
+		} else {
+			$('#nav').removeClass('fixed-change');
 		}
   });
 });
