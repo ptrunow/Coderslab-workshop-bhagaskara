@@ -49,6 +49,24 @@ a:hover, a:active, a:focus {
   max-width: 1170px;
   margin: 0 auto; }
 
+/* SCROLLTOP BUTTON */
+.scrollToTop {
+  width: 100px;
+  height: 130px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  right: 0px;
+  bottom: -75px;
+  display: none;
+  background: url(/_img/to-top1.png) no-repeat 0px 20px; }
+
+.scrollToTop:hover {
+  text-decoration: none; }
+
 /* ~~ TEXT HEADER ~~ */
 .main-header {
   background: url(/_img/bg.jpg) no-repeat;
