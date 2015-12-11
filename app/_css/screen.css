@@ -215,26 +215,23 @@ a:hover, a:active, a:focus {
   height: auto; }
 
 /* ~~ QUOTE ONE ~~ */
-#quote-one {
-  background-image: url(/_img/quotebg.png);
+header + .bgnd {
+  height: 86vh; }
+
+header + .bgnd {
+  height: 86vh; }
+
+.bgnd {
+  background-attachment: fixed;
+  background-position: 50% 0;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 500px; }
-  #quote-one span {
-    width: 200px;
-    height: 175px;
-    background-image: url(/_img/quote.png);
-    background-repeat: no-repeat;
-    background-size: 175px auto;
-    display: block;
-    text-align: center;
-    margin-left: 42%;
-    margin-top: 8%; }
-  #quote-one h2 {
-    text-align: center;
-    display: block;
-    margin-top: 15px;
-    color: #fff; }
+  background-size: cover;
+  height: 54vh;
+  max-height: 1200px;
+  min-height: 200px; }
+
+.bgnd-1 {
+  background-image: url(/_img/quotebg.png); }
 
 /* ~~ OUR TEAM ~~ */
 #team h2 {
