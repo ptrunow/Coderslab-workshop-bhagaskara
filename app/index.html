@@ -24,29 +24,30 @@
 		<div class="icon-header">
 			<div class="row">
 				<div class="col-md-2 col-md-offset-4">
-					<a href="#services" class="icon-services">Services</a>
+					<a href="#services" class="icon-services"><p>Services</p></a>
 				</div>
 				<div class="col-md-2">
-					<a href="#portfolio" class="icon-portfolio">Portfolio</a>
+					<a href="#portfolio" class="icon-portfolio"><p>Portfolio</p></a>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="icon-header-left">
 					<div class="col-md-6">
-						<a href="#about" class="icon-about">About</a>
-						<a href="#team" class="icon-team">Team</a>
+						<a href="#about" class="icon-about"><p>About</p></a>
+						<a href="#team" class="icon-team"><p>Team</p></a>
 					</div>
 				</div>
 				<div class="icon-header-right">
 					<div class="col-md-6">
-						<a href="#" class="icon-blog">Blog</a>
-						<a href="#contact" class="icon-contact">Contact</a>
+						<a href="#" class="icon-blog"><p>Blog</p></a>
+						<a href="#contact" class="icon-contact"><p>Contact</p></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<a href="#" class="scrollDown"></a>
 </header>
 
 <!-- NAVIGATION -->
@@ -65,7 +66,7 @@
 		</nav>
 </div>
 
-<!-- INFO -->
+<!-- COOMAPY INFO -->
 <div id="info" class="container-fluid">
 	<h2 class="hide">Company Info</h2>
 		<div class="row">
@@ -105,28 +106,20 @@
 				</div>
 				<div class="col-md-6">
 					<p>Aliquam metus neque, bibendum sit amet porta at, consequat et enim. In ut turpis non ipsum rhoncus porttitor vel ac nunc. Maecenas interdum dignissim lorem quis auctor. Donec sit amet nulla nisl, aliquam pretium ipsum. Pellentesque sodales ipsum et enim rutrum adipiscing. Quisque tincidunt mattis sapien, vel posuere.</p>
-					<a href="#">Learn more</a>
+					<div class="learn">
+						<a href="#">Learn more</a>
+					</div>
 				</div>
+				
 			</div>
 		</div>
 </div>
 
 <!-- QUOTE ONE -->
-
-
-
-
-
-<section class="bgnd bgnd-1 js-parallax-bg">
+<section id="quote-one" class="bgnd bgnd-1 js-parallax-bg">
 	<span></span>
 	<h2>We lorem and ipsum your aliquam</h2>
 </section>
-
-
-
-
-
-
 
 <!-- TEAM -->
 <div id="team" class="container">
@@ -153,19 +146,19 @@
 </section>
 
 <!-- QUOTE TWO -->
-<div id="quote-two">
-	<div class="container-fluid">
+<section id="quote-two" class="bgnd bgnd-1 js-parallax-bg">
+	<div>
 		<span></span>
-		<h2>We lorem and ipsum your aliquam</h2>
-	</div>	
-</div>
+	</div>
+	<h2>We lorem and ipsum your aliquam</h2>
+</section>
 
 <!-- COUTNER-->
 <div id="countner">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				<h2>365</h2>
+				<h2>98%</h2>
 				<p>Lorem Ipsum</p>
 			</div>
 			<div class="col-md-3">
@@ -187,37 +180,37 @@
 
 <!-- REVIEVS -->
 <section id="revievs">
-	<h2>Revievs</h2>
+	<h2 class="hide">Revievs</h2>
 	<div class="revievs-carousel">
-		<div class="review-item">
+		<div class="review-item" id="1">
 			<img src="../_img/n1.jpg" alt="The Pulpit Rock">
 			<blockquote>
 				<p>Neque Porro Quisquam</p>
 			</blockquote>
 			<cite>LESALE CHRISTOPER, PINTEREST</cite>
 		</div>
-		<div class="review-item">
+		<div class="review-item" id="2">
 			<img src="../_img/n2.jpg" alt="The Pulpit Rock">
 			<blockquote>
 				<p>Neque Porro Quisquam</p>
 			</blockquote>
 			<cite>LESALE CHRISTOPER, PINTEREST</cite>
 		</div>
-				<div class="review-item">
+				<div class="review-item" id="3">
 			<img src="../_img/n3.jpg" alt="The Pulpit Rock">
 			<blockquote>
 				<p>Neque Porro Quisquam</p>
 			</blockquote>
 			<cite>LESALE CHRISTOPER, PINTEREST</cite>
 		</div>
-				<div class="review-item">
+				<div class="review-item" id="4">
 			<img src="../_img/n4.jpg" alt="The Pulpit Rock">
 			<blockquote>
 				<p>Neque Porro Quisquam</p>
 			</blockquote>
 			<cite>LESALE CHRISTOPER, PINTEREST</cite>
 		</div>
-		<div class="review-item hide">
+		<div class="review-item" id="5">
 			<img src="../_img/n5.jpg" alt="The Pulpit Rock">
 			<blockquote>
 				<p>Neque Porro Quisquam</p>
@@ -225,6 +218,15 @@
 			<cite>LESALE CHRISTOPER, PINTEREST</cite>
 		</div>
 	</div>
+	<ul class="dots-nav">
+		<li><a data-slide="1" href="#">1</a></li>
+		<li><a data-slide="2" href="#">1</a></li>
+		<li><a data-slide="3" href="#">1</a></li>
+		<li><a data-slide="4" href="#">1</a></li>
+		<li><a data-slide="5" href="#">1</a></li>
+
+
+	</ul>
 </section>
 
 <!-- PORTFOLIO -->
@@ -313,23 +315,42 @@
 	  				<figcaption>apps, icons, ui</figcaption>
 				</figure>
 			</div>
-			<button class="gallery-button">Watch more</button>
+			<div class="gallery-button">
+				<a href="#">Watch more</a>
+			</div>
 		</div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact">
 	<div class="container">
-		<h2>Get in touch</h2>
-		<div class="contact-form col-md-6">
-			
+		<h2>Get <small>in touch<small></h2>
+		<div class="contact-forms col-md-6">
+			<form>
+				<input type="text" maxlength="20" value="Your Name">
+				<input type="text" maxlength="30" value="Your Email">
+				<textarea value="Your Message"></textarea>
+			</form>
 		</div>
 		<div class="col-md-6">
-			<div class="contact-info">
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-				<h3>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.</h3>
-				<span>T: (202) 456-1111</span>
-				<small>M: (202) 456-1212</small>
+			<div class="contact-right">
+				<div class="contact-info">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+					<h3>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.</h3>
+					<span>T: (202) 456-1111</span>
+					<small>M: (202) 456-1212</small>
+				</div>
+				<div class="socialmedia">
+					<span class="icon1">
+						<a href="#"></a>
+					</span>
+					<span class="icon2">
+						<a href="#"></a>
+					</span>
+					<span class="icon3">
+						<a href="#"></a>
+					</span>
+				</div>
 			</div>
 		</div>
 	</div>
