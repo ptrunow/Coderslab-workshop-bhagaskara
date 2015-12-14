@@ -22,9 +22,36 @@
 }
 
 @mixin heading {
+	margin: 2em 0 10em;
 	h2 {
 		text-align: center;
 		font-size: 45px;
+		margin: 0 auto;
+		width: 300px;
+		text-align: center;
+		position: relative;
+		padding: 85px 0;
+
+		&:after{
+			content: " ";
+			width: 30px;
+			height: 30px;
+			border-right: 1px solid mediumorchid;
+			border-top: 1px solid mediumorchid;
+			position: absolute;
+			top: 50px;
+			right: 0px;
+		}
+		&:before{
+			content: " ";
+			width: 30px;
+			height: 30px;
+			border-left: 1px solid mediumorchid;
+			border-bottom: 1px solid mediumorchid;
+			position: absolute;
+			bottom: 50px;
+			left: -15px;
+		}
 
 		small {
 			color: #9f449b;
@@ -32,3 +59,4 @@
 		}
 	}
 }
+

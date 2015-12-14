@@ -117,7 +117,7 @@ $(document).ready(function(){
 	    }
 }
 
-
+/* CONTACT FORM */
 
 });
 

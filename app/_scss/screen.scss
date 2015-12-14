@@ -287,10 +287,7 @@ a:hover, a:active {
 /* ~~ ABOUT US ~~ */
 
 #about {
-	padding: 7em 0;
-
 	@include heading;
-
 	p {
 		font-size: 17px;
 		color: #8D8D8D;
@@ -300,9 +297,8 @@ a:hover, a:active {
 	}
 
 	.learn {
-	margin-top: 17%;
-	padding-left: 20px;
-
+		margin-top: 17%;
+		padding-left: 20px;
 		@include button;
 	}
 }
@@ -362,8 +358,6 @@ a:hover, a:active {
 /* ~~ SKILLS ~~ */
 
 #services {
-	margin-bottom: 10%;
-
 	@include heading;
 
 	h3 {
@@ -489,7 +483,7 @@ a:hover, a:active {
 
 form {
 	display: block;
-
+	margin-bottom: 7em;
 	input, textarea {
 		width: 100%;
 		padding: 3%;
@@ -507,6 +501,10 @@ form {
 	textarea {
 		min-height: 300px; 
 	}
+}
+
+.form-button {
+	@include button;
 }
 
 .contact-right {
@@ -590,8 +588,12 @@ form {
 	}
 }
 
-
-
+/* ~~ PORTFOLIO ~~ */
+.footer-img {
+	display: block;
+	text-align: center;
+	padding: 13em 0 12em;
+}
 
 
 

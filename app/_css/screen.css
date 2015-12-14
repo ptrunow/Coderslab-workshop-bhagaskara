@@ -205,10 +205,33 @@ a:hover, a:active {
 
 /* ~~ ABOUT US ~~ */
 #about {
-  padding: 7em 0; }
+  margin: 2em 0 10em; }
   #about h2 {
     text-align: center;
-    font-size: 45px; }
+    font-size: 45px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    padding: 85px 0; }
+    #about h2:after {
+      content: " ";
+      width: 30px;
+      height: 30px;
+      border-right: 1px solid mediumorchid;
+      border-top: 1px solid mediumorchid;
+      position: absolute;
+      top: 50px;
+      right: 0px; }
+    #about h2:before {
+      content: " ";
+      width: 30px;
+      height: 30px;
+      border-left: 1px solid mediumorchid;
+      border-bottom: 1px solid mediumorchid;
+      position: absolute;
+      bottom: 50px;
+      left: -15px; }
     #about h2 small {
       color: #9f449b;
       font-size: 45px; }
@@ -274,21 +297,69 @@ a:hover, a:active {
     color: #fff; }
 
 /* ~~ OUR TEAM ~~ */
-#team h2 {
-  text-align: center;
-  font-size: 45px; }
-  #team h2 small {
-    color: #9f449b;
-    font-size: 45px; }
+#team {
+  margin: 2em 0 10em; }
+  #team h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    padding: 85px 0; }
+    #team h2:after {
+      content: " ";
+      width: 30px;
+      height: 30px;
+      border-right: 1px solid mediumorchid;
+      border-top: 1px solid mediumorchid;
+      position: absolute;
+      top: 50px;
+      right: 0px; }
+    #team h2:before {
+      content: " ";
+      width: 30px;
+      height: 30px;
+      border-left: 1px solid mediumorchid;
+      border-bottom: 1px solid mediumorchid;
+      position: absolute;
+      bottom: 50px;
+      left: -15px; }
+    #team h2 small {
+      color: #9f449b;
+      font-size: 45px; }
 
 /* ~~ SKILLS ~~ */
 #services {
-  margin-bottom: 10%;
+  margin: 2em 0 10em;
   /* background */
   /* value part */ }
   #services h2 {
     text-align: center;
-    font-size: 45px; }
+    font-size: 45px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    padding: 85px 0; }
+    #services h2:after {
+      content: " ";
+      width: 30px;
+      height: 30px;
+      border-right: 1px solid mediumorchid;
+      border-top: 1px solid mediumorchid;
+      position: absolute;
+      top: 50px;
+      right: 0px; }
+    #services h2:before {
+      content: " ";
+      width: 30px;
+      height: 30px;
+      border-left: 1px solid mediumorchid;
+      border-bottom: 1px solid mediumorchid;
+      position: absolute;
+      bottom: 50px;
+      left: -15px; }
     #services h2 small {
       color: #9f449b;
       font-size: 45px; }
@@ -398,15 +469,41 @@ a:hover, a:active {
       padding: 1em 3em; }
 
 /* ~~ CONTACT ~~ */
-#contact h2 {
-  text-align: center;
-  font-size: 45px; }
-  #contact h2 small {
-    color: #9f449b;
-    font-size: 45px; }
+#contact {
+  margin: 2em 0 10em; }
+  #contact h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    padding: 85px 0; }
+    #contact h2:after {
+      content: " ";
+      width: 30px;
+      height: 30px;
+      border-right: 1px solid mediumorchid;
+      border-top: 1px solid mediumorchid;
+      position: absolute;
+      top: 50px;
+      right: 0px; }
+    #contact h2:before {
+      content: " ";
+      width: 30px;
+      height: 30px;
+      border-left: 1px solid mediumorchid;
+      border-bottom: 1px solid mediumorchid;
+      position: absolute;
+      bottom: 50px;
+      left: -15px; }
+    #contact h2 small {
+      color: #9f449b;
+      font-size: 45px; }
 
 form {
-  display: block; }
+  display: block;
+  margin-bottom: 7em; }
   form input, form textarea {
     width: 100%;
     padding: 3%;
@@ -420,6 +517,24 @@ form {
       border: 1px solid #A957A5 !important; }
   form textarea {
     min-height: 300px; }
+
+.form-button a {
+  background: #A957A5;
+  border-bottom: solid 5px #6B2E68;
+  border-radius: 7px;
+  padding: 1em 3em;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  transition: 0.5s all; }
+  .form-button a:hover {
+    color: #6B2E68;
+    text-decoration: none;
+    background: transparent;
+    border: solid 2px #6B2E68;
+    border-top: solid 5px #6B2E68;
+    border-radius: 10px;
+    padding: 1em 3em; }
 
 .contact-right {
   width: 75%;
@@ -473,5 +588,11 @@ form {
         background-position: -70px -55px; }
       .contact-right .socialmedia span:hover.icon3:before {
         background-position: -142px -55px; }
+
+/* ~~ PORTFOLIO ~~ */
+.footer-img {
+  display: block;
+  text-align: center;
+  padding: 13em 0 12em; }
 
 /*# sourceMappingURL=screen.css.map */
